@@ -77,4 +77,5 @@ age_array = []
     end
   end 
   age_array
+  binding.pry
 end
