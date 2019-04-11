@@ -66,7 +66,7 @@ def get_occupation(data, hometown)
       contestant.each do |contestant_attribute, attribute_value|
       #binding.pry
         if attribute_value == hometown
-          hometown_array << contestant["name"]
+          hometown_array << contestant["occupation"]
           #binding.pry
         end
       end 
