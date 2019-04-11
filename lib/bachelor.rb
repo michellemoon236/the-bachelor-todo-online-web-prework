@@ -48,12 +48,12 @@ def count_contestants_by_hometown(data, hometown)
       #binding.pry
         if attribute_value == hometown
           hometown_array = contestant["name"]
-          binding.pry
+          #binding.pry
         end
       end 
     end
   end 
-  hometown_array.count 
+  hometown_array.length
   binding
 end
 
