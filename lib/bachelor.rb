@@ -71,7 +71,7 @@ age_array = []
       #binding.pry
         if season_number == season
           age_array << contestant["age"].to_i
-          binding.pry
+          #binding.pry
         #end
       end 
     end
