@@ -47,7 +47,7 @@ def count_contestants_by_hometown(data, hometown)
       contestant.each do |contestant_attribute, attribute_value|
       #binding.pry
         if attribute_value == hometown
-          hometown_array = contestant["name"]
+          hometown_array << contestant["name"]
           #binding.pry
         end
       end 
