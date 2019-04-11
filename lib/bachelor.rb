@@ -77,5 +77,5 @@ age_array = []
     end
   end 
   (age_array.sum) / (age_array.length)
-  binding.pry
+  #binding.pry
 end
