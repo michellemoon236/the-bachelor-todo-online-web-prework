@@ -38,7 +38,7 @@ def get_contestant_name(data, occupation)
 end
 
 def count_contestants_by_hometown(data, hometown)
-  count_array = []
+  hometown_array = []
   #binding.pry
   data.each do |season_number, contestant_array|
     #binding.pry
@@ -47,12 +47,12 @@ def count_contestants_by_hometown(data, hometown)
       contestant.each do |contestant_attribute, attribute_value|
       #binding.pry
         if attribute_value == hometown
-          name = contestant["name"]
+          hometown_array = contestant["name"]
         end
       end 
     end
   end 
-  name
+  hometown_array.count 
 end
 end
 
