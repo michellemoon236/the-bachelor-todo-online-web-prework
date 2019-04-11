@@ -75,5 +75,5 @@ age_array = []
       end 
     end
   end 
-  name
+  age_array
 end
