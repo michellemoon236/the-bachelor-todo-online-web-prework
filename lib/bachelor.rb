@@ -76,6 +76,6 @@ age_array = []
       end 
     end
   end 
-  ((age_array.sum) / (age_array.length)).to_f.round
+  ((age_array.sum) / (age_array.length)).to_f
   #binding.pry
 end
