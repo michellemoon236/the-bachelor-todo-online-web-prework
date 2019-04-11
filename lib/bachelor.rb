@@ -70,7 +70,7 @@ age_array = []
       contestant.each do |contestant_attribute, attribute_value|
       #binding.pry
         if attribute_value == season
-          age_array << contestant["name"]
+          age_array << contestant["age"]
         end
       end 
     end
