@@ -76,6 +76,6 @@ age_array = []
       end 
     end
   end 
-  age_array
+  age_array.sum.fdiv(arr.size)
   binding.pry
 end
