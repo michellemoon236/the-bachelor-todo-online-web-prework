@@ -69,7 +69,7 @@ age_array = []
       #binding.pry
       contestant.each do |contestant_attribute, attribute_value|
       #binding.pry
-        if  == season
+        if season_number == season
           age_array << contestant["age"].to_i
           binding.pry
         end
