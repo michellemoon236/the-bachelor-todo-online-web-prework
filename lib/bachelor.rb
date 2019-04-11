@@ -71,6 +71,7 @@ age_array = []
       #binding.pry
         if attribute_value == season
           age_array << contestant["age"].to_i
+          binding.pry
         end
       end 
     end
